@@ -1,15 +1,11 @@
 /* 
-Name: Natnael Gebremariam
-NSHE ID: 5002150850
-Class: CS326-1002 
-Assignment: C program that breaks down a JSON file into char, to imitate a scanner 
-          and parser
 Description: The program reads in the file character by character and stors them as 
               tokens based on a globbal variable that its compared to. Ones its done,
               it goes through a error check and matches the the char to token names 
               then prints out line number, token id, and token value. In addition to 
               handling edge cases like not even braces and incorrect format
 */
+
 #include <stdbool.h> //lib 
 #include <stdio.h>
 #include <stdlib.h>
