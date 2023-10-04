@@ -20,7 +20,7 @@ Description: The program reads in the file character by character and stors them
 struct Token {
   int kind;
   int lineNo; 
-  char lexeme[100]; 
+  char lexeme[100]; //cant do dynamic in c 
 };
 //global variables 
 const int EOT = 0; // end of file
